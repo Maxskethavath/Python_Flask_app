@@ -1,0 +1,36 @@
+first we need to create a virtual environment 
+we have created usign python -m venv env(name)
+now we have to activate it by rinning the ".\env\Scripts\activate.ps1"
+
+
+any file we have in the static can be run on the port as port/static/filename(ex:madhu.txt)
+
+templates are used to run the html codes
+
+
+to create a todo list 
+
+we need to run python 
+the with in it 
+run from app import db
+then again run db.create_all()
+
+
+jinja 2 snippet install it 
+helps in showing the data on the website using and adding the the db in html
+
+install gunicorn that will resques from all the threads
+can be served
+pip freeze > requirement.txt which will freezes all our requirements
+
+to login to heroku 
+
+enter heroku login
+git init
+git add .
+git commit -m "initial commit"
+
+heroku create todo-withmadhu
+
+git remote -v
+git push heroku master
